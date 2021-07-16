@@ -1,0 +1,105 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Simple HTML Tutorial</title>
+<style>
+body{
+  background-color: #666;
+}
+header {
+  background-image:url("head.jpg");
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+footer {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #777;
+}
+
+.lia {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.lia:hover {
+  background-color: #111;
+  color: red;
+  }
+  .nav {
+  overflow: auto;
+  background-color: #888;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height:470px;
+}
+.column {
+  background-image:url("back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px;
+  height:470px;
+  float: left;
+  width: 77%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 STYLE="COLOR:blue;text-align:CENTER">Simple HTML Tutorial</h1>
+</header>
+<hr>
+<div class="row">
+  <div class="nav">
+ <h2>Index</h2>
+<ul class="ul">
+  <li class="lia"><a href="index.html" class="lia">Home</a></li>
+  <li class="lia"><a href="basic.html" class="lia">Basic</a></li>
+  <li class="lia"><a href="ol.html" class="lia">Ordered List</a></li>
+  <li class="lia"><a href="ul.html" class="lia">UnOrdered List</a></li>
+  <li class="lia"><a href="nl.html" class="lia">Nested List</a></li>
+  <li class="lia"><a href="image.html" class="lia">Image</a></li>
+  <li class="lia"><a href="table.html" class="lia">Table</a></li>
+  <li class="lia"><a href="links.html" class="lia">Links</a></li>
+  <li class="lia"><a href="audio.html" class="lia">Audio</a></li>
+  <li class="lia"><a href="video.html" class="lia">Video</a></li>
+  <li class="lia"><a href="if.html" class="lia">iframe</a></li>
+  <li class="lia"><a href="form.html" class="lia">Form</a></li>
+  <li class="lia"><a href="tran.html" class="lia">Transformation</a></li>
+  <li class="lia"><a href="loc.html" class="lia">Location</a></li>
+</ul>
+</div>
+<div class="column" style="background-color:#bbb;">
+    <h2 STYLE="text-shadow: 2px 1px red;">Audio</h2><hr>
+    <h3>We can use &ltaudio&gt tag to insert a audio file</h3>
+<audio controls>
+  <source src="horse.ogv" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+  </div>
+</div>
+<hr><footer>
+<marquee><h3>(&ltmarquee&gt)For Downloading code simple click <a href="index.txt" download><u>hear<u></a></h3></marquee>	
+</footer>
+
+</body>
+</html>

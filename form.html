@@ -1,0 +1,139 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Simple HTML Tutorial</title>
+<style>
+body{
+  background-color: #666;
+}
+header {
+  background-image:url("head.jpg");
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  
+}
+footer {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #777;
+}
+
+.lia {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.lia:hover {
+  background-color: #111;
+  color: red;
+  }
+  
+  .nav {
+  overflow: auto;
+  background-color: #888;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height:470px;
+}
+
+.column {
+  background-image:url("back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px;
+  overflow: auto;
+  height:470px;
+  float: left;
+  width: 77%;
+  padding: 10px;
+  box-shadow: 2px 2px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3{
+
+}
+</style>
+</head>
+<body>
+<header>
+<h1 STYLE="COLOR:blue;text-align:CENTER">Simple HTML Tutorial</h1>
+</header>
+<hr>
+<div class="row">
+  <div class="nav">
+ <h2>Index</h2>
+<ul class="ul">
+  <li class="lia"><a href="index.html" class="lia">Home</a></li>
+  <li class="lia"><a href="basic.html" class="lia">Basic</a></li>
+  <li class="lia"><a href="ol.html" class="lia">Ordered List</a></li>
+  <li class="lia"><a href="ul.html" class="lia">UnOrdered List</a></li>
+  <li class="lia"><a href="nl.html" class="lia">Nested List</a></li>
+  <li class="lia"><a href="image.html" class="lia">Image</a></li>
+  <li class="lia"><a href="table.html" class="lia">Table</a></li>
+  <li class="lia"><a href="links.html" class="lia">Links</a></li>
+  <li class="lia"><a href="audio.html" class="lia">Audio</a></li>
+  <li class="lia"><a href="video.html" class="lia">Video</a></li>
+  <li class="lia"><a href="if.html" class="lia">iframe</a></li>
+  <li class="lia"><a href="form.html" class="lia">Form</a></li>
+  <li class="lia"><a href="tran.html" class="lia">Transformation</a></li>
+  <li class="lia"><a href="loc.html" class="lia">Location</a></li>
+</ul>
+</div>
+<div class="column" style="background-color:#bbb;">
+    <h2 STYLE="text-shadow: 2px 1px red;">Form</h2><hr>
+    <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="eg. John"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="eg. Wick"><br><br>
+  <label for="uid">User Id:</label><br>
+  <input type="text" id="uid" name="lname" placeholder="eg. johnwick"><br><br>
+  <label for="Password">Password:</label><br>
+  <input type="password" id="password" name="fname"><br><br>
+  <label for="mobile">Mobile:</label><br>
+  <input type="tel"><br><br>
+  <label>Gender :</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <label>Qualifications :</label><br>
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="house"> I have a House</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="car"> I have a Bike</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="Bike"> I have a Car</label><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+  </div>
+</div>
+<hr><footer>
+<marquee><h3>(&ltmarquee&gt)For Downloading code simple click <a href="index.txt" download><u>hear<u></a></h3></marquee>	
+</footer>
+
+</body>
+</html>
